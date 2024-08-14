@@ -12,6 +12,7 @@ ingress:
     # nginx.ingress.kubernetes.io/backend-protocol: "HTTPS"
     # cert-manager.io/cluster-issuer: letsencrypt-prod
   tls:
+    enabled: true
     secretName: "cow-demo-tls"
 service:
   type: ClusterIP
