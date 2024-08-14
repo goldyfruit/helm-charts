@@ -3,6 +3,19 @@ entries:
   cow-demo:
   - apiVersion: v2
     appVersion: 2.0.0
+    created: "2024-08-14T21:48:18.744835741Z"
+    description: Helm chart for Cow Demo Application
+    digest: 7355f444e9a27267e371ca3892804337a9e77d9689b2fff4abc355908526a22b
+    maintainers:
+    - email: gaetan.trellu@gmail.com
+      name: goldyfruit
+    name: cow-demo
+    type: application
+    urls:
+    - cow-demo-0.2.1.tgz
+    version: 0.2.1
+  - apiVersion: v2
+    appVersion: 2.0.0
     created: "2024-07-10T01:30:39.314565013Z"
     description: Helm chart for Cow Demo Application
     digest: c26472a081e45cf590cacdd75f3da19dd275875663b96542b1f880fbfdc3b858
@@ -14,4 +27,4 @@ entries:
     urls:
     - cow-demo-0.2.0.tgz
     version: 0.2.0
-generated: "2024-07-10T01:30:39.314575703Z"
+generated: "2024-08-14T21:48:18.744852031Z"
